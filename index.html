@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>My App</title>
+    <!-- Path to Framework7 Library CSS-->
+    <link rel="stylesheet" href="css/framework7.ios.min.css">
+    <link rel="stylesheet" href="css/framework7.ios.colors.min.css">
+      <link rel="stylesheet" href="Framework7-Icons-master/css/framework7-icons.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.x.x/css/swiper.css">
+
+    <!-- Path to your custom app styles-->
+    <link rel="stylesheet" href="css/my-app.css">
+    
+  </head>
+  <body class="page layout-white theme-pink">
+      
+    <!-- Status bar overlay for fullscreen mode-->
+    <div class="statusbar-overlay"></div>
+    <!-- Panels overlay-->
+    <div class="panel-overlay"></div>
+    <!-- Left panel with reveal effect-->
+    <div class="panel panel-left panel-reveal">
+      <div class="content-block" style="margin-top:-13px;">
+      <div class="content-block-inner">
+          <img  class="img-center" src="img/premirap%20logo.png" width="60%" style="margin-left:20%;"/>
+          <div class="list-block" style="margin-top:-1px; ">
+  <ul>
+    <li>
+      <a href="#" class="item-link close-panel item-content">
+        <div class="item-media"><i class="f7-icons">money_rubl</i></div>
+        <div class="item-inner">
+          <div class="item-title">Bill Payments</div>
+          
+        </div>
+      </a>
+    </li>
+    
+        <li>
+      <a href="#" class="item-link close-panel item-content">
+        <div class="item-media"><i class="f7-icons">bag</i></div>
+        <div class="item-inner">
+          <div class="item-title">Grocery Shopping</div>
+          
+        </div>
+      </a>
+    </li>
+      
+      <li>
+      <a href="#" class="item-link close-panel item-content">
+        <div class="item-media"><i class="f7-icons">videocam_round</i></div>
+        <div class="item-inner">
+          <div class="item-title">Netflex Streaming</div>
+          
+        </div>
+      </a>
+    </li>
+
+
+      <li>
+      <a href="http://www.1spotmedia.com/#!/live-stream/79336998495"  class="item-link close-panel item-content external">
+        <div class="item-media"><i class="f7-icons">phone_round</i></div>
+        <div class="item-inner">
+          <div class="item-title">Mobile Top-up</div>
+          
+        </div>
+      </a>
+    </li>
+        <li>
+      <a href="http://cvmtv.com/live_stream.php" class="item-link close-panel item-content external">
+       <div class="item-media"><i class="f7-icons">timer_fill</i></div>
+        <div class="item-inner">
+          <div class="item-title">Fast Food</div>
+          
+        </div>
+      </a>
+    </li>
+      
+      <li>
+      <a href="#" class="item-link close-panel item-content external">
+        <div class="item-media"><i class="f7-icons">persons_fill</i></div>
+        <div class="item-inner">
+          <div class="item-title">Free Market</div>
+          
+        </div>
+      </a>
+    </li>
+        <li>
+      <a href="about.html" class="item-link close-panel item-content">
+       <div class="item-media"><i class="f7-icons">info</i></div>
+        <div class="item-inner">
+          <div class="item-title">About us</div>
+          
+        </div>
+      </a>
+    </li>
+      
+       <li>
+      <a href="online-payments.html" class="item-link close-panel item-content">
+       <div class="item-media"><i class="f7-icons">money_dollar_fill</i></div>
+        <div class="item-inner">
+          <div class="item-title">Online Payments</div>
+          
+        </div>
+      </a>
+    </li>
+      
+       <li>
+      <a href="#" class="item-link close-panel item-content">
+       <div class="item-media"><i class="f7-icons">help</i></div>
+        <div class="item-inner">
+          <div class="item-title">Faqs</div>
+          
+        </div>
+      </a>
+    </li>
+              </ul>
+          </div>
+          </div>
+          
+          
+          
+    </div>
+    
+    </div>
+    <!-- Right panel with cover effect-->
+    <div class="panel panel-right panel-cover">
+      <div class="content-block">
+        <p>Right panel content goes here</p>
+      </div>
+    </div>
+    <!-- Views-->
+    <div class="views">
+      <!-- Your main view, should have "view-main" class-->
+      <div class="view view-main">
+        <!-- Top Navbar-->
+        <div class="navbar" style="background-color:#424242; " >
+          <div class="navbar-inner">
+            <!-- We have home navbar without left link-->
+            <div class="center sliding" style="color:white;"><h3>Explore</h3></div>
+            <div class="right">
+              <!-- Right link contains only icon - additional "icon-only" class--><a href="#" class="link icon-only open-panel"> <i class="icon icon-bars"></i></a>
+            </div>
+          </div>
+        </div>
+        <!-- Pages, because we need fixed-through navbar and toolbar, it has additional appropriate classes-->
+        <div class="pages navbar-through toolbar-through">
+          <!-- Page, data-page contains page name-->
+          <div data-page="index" class="page">
+            <!-- Scrollable page content-->
+            <div class="page-content" >
+                
+             
+
+                
+                <div class="content-block-title"><i class="f7-icons">money_rubl</i> Bill Payments</div>
+                    
+                     <div class="card demo-card-header-pic">
+                    <a href="bill-payments.html" class="link">
+                    <div class="image" style="margin-bottom:-5px;">
+                        <img src="img/billppt.png" style="width:100%; height:230px; ">
+                    </div>
+                     </a>
+                      <div class="card-footer">
+                        <a href="bill-payments.html" class="link"><h3>Bill Payments</h3></a>
+                        <a href="bill-payments.html" class="link"><i class="f7-icons">chevron_right</i></a>
+                      </div>
+                    </div>
+    
+                <div class="content-block-title"><i class="f7-icons">videocam_round</i> Netflex Streaming</div>
+ 
+                     <div class="card demo-card-header-pic">
+                     <a href="netflex_streaming.html" class="link">
+                    <div class="image" style="margin-bottom:-5px;">
+                        <img src="img/movie-cinema-icons_23-2147495008.jpg" style="width:100%; height:230px;">
+                    </div>
+                    </a>
+                      <div class="card-footer">
+                        <a href="netflex_streaming.html" class="link"><h3>Netflex Streaming</h3></a>
+                        <a href="netflex_streaming.html" class="link"><i class="f7-icons">chevron_right</i></i></a>
+                      </div>
+                    </div>
+                
+        
+
+
+                <div class="content-block-title"><i class="f7-icons">phone_round</i> Mobile Top-up</div>
+ 
+                    <div class="card demo-card-header-pic">
+                         <a href="mobile_topup.html" class="link">
+                    <div class="image" style="margin-bottom:-5px;">
+                        <img src="img/Mobile.png" style="width:100%; height:230px; ">
+                    </div>
+                        </a>
+                      <div class="card-footer">
+                        <a href="mobile_topup.html" class="link"><h3>Mobile Top-up</h3></a>
+                        <a href="mobile_topup.html" class="link"><i class="f7-icons">chevron_right</i></i></a>
+                      </div>
+                    </div>
+                    
+            
+                <div class="content-block-title"><i class="f7-icons">paper_plane_fill</i> E-tickets</div>
+ 
+                    <div class="card demo-card-header-pic">
+                         <a href="E-tickets.html" class="link">
+                    <div class="image" style="margin-bottom:-5px;">
+                        <img src="http://microlancer.lancerassets.com/v2/services/15/83bc309a4611e38b57194aca668b5d/large_02_Event-Ticket_02.jpg" style="width:100%; height:230px; ">
+                    </div>
+                        </a>
+                      <div class="card-footer">
+                        <a href="E-tickets.html" class="link"><h3>E-tickets</h3></a>
+                        <a href="E-tickets.html" class="link"><i class="f7-icons">chevron_right</i></i></a>
+                      </div>
+                    </div>
+                    
+                    
+
+     
+        
+                <!-- Change the width and height values to suit you best -->
+
+              <div class="content-block-title">How Paysumer Express works?</div>
+              <div class="list-block">
+                <ul>
+                  <li><a href="about.html" class="item-link">
+                      <div class="item-content">
+                      <div class="item-media"><i class="f7-icons">info</i></div>
+                        <div class="item-inner"> 
+                          <div class="item-title">About us</div>
+                               
+                        </div>
+                      </div></a></li>
+                  <li><a href="online-payments.html" class="item-link">
+                      <div class="item-content"> 
+                     <div class="item-media"><i class="f7-icons">money_dollar_fill</i></div> 
+                        <div class="item-inner">
+                          <div class="item-title">Online Payments</div>
+                        </div>
+                      </div></a></li>
+                  <li><a href="#" class="item-link">
+                      <div class="item-content"> 
+                     <div class="item-media"><i class="f7-icons">help</i></div>
+                        <div class="item-inner">
+                          <div class="item-title">Faqs</div>
+                        </div>
+                      </div></a></li>
+                </ul>
+              </div>
+           
+        
+            </div>
+          </div>
+        </div>
+        <!-- Bottom Toolbar-->
+
+        
+      </div>
+    </div>
+    <!-- Path to Framework7 Library JS-->
+    <script type="text/javascript" src="js/framework7.min.js"></script>
+
+     <script src="js/simpleCart%201.js"></script>
+    <script src="js/jquery.1.6.1.min.js"></script>
+    <!-- Path to your app js-->
+    <script type="text/javascript" src="js/my-app.js"></script>
+<script src="jquery.countdown-2.2.0/jquery.countdown.js"></script>
+       
+
+</div> 
+  </body>
+</html>
